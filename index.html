@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+   <!-- Header -->
    <nav id="desktop-nav">
       <div class="logo">F-Y</div>
       <div>
@@ -37,6 +38,60 @@
       </div>
    </nav>
 
+   <!-- Hero -->
+   <section id="hero">
+      <div class="section__pic-container">
+         <img src="./assets/istockphoto-1368154288-612x612.jpg" alt="prof-pic">
+      </div>
+      <div class="section__text">
+         <p class="section__text__p1">Hello I'm</p>
+         <h1 class="title">Folorunsho Yede</h1>
+         <p class="section__text__p2">Frontend Developer</p>
+         <div class="btn-container">
+            <button class="btn btn-color-2"><a href="./assets/yedefolorunsho2.pdf" target="_blank">Download CV</a></button>
+            <!-- <button class="btn btn-color-1"><a href="#contact">Contact Info</a></button> -->
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+         </div>
+         <div id="socials-container">
+            <!-- <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/yede-folorunsho-73b59822b'"> -->
+            <!-- <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/FolorunshoYede'"> -->
+            <a href="https://www.linkedin.com/in/yede-folorunsho-73b59822b" target="_blank"><img src="./assets/linkedin.png" class="icon" alt=""></a>
+            <a href="https://github.com/FolorunshoYede" target="_blank"><img src="./assets/github.png" class="icon" alt=""></a>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- About -->
+   <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+         <div class="section__pic-containter">
+            <img src="./assets/istockphoto-1489047673-612x612.jpg" alt="profile" class="about-pic">
+         </div>
+         <div class="about-details-container">
+            <div class="about-containers">
+               <div class="details-container">
+                  <img src="./assets/experience.png" class="icon" alt="experience-icon">
+                  <h3>Experience</h3>
+                  <p>1+ years <br>Frontend Development</p>
+               </div>
+               <div class="details-container">
+                  <img src="./assets/education.png" class="icon" alt="education-icon">
+                  <h3>Education</h3>
+                  <p>B.Sc Physics</p>
+               </div>
+            </div>
+            <div class="text-container">
+               <p>I’m a web developer with experience in HTML, CSS and JavaScript. I’m dedicated to 
+                  transforming your ideas into responsive and user-friendly interfaces. I have basic knowledge of 
+                  frameworks like Tailwind CSS and React.js</p>
+            </div>
+         </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience'">
+   </section>
    <script src="app.js"></script>
 </body>
 </html>
