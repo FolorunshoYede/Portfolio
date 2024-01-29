@@ -468,7 +468,7 @@ article .icon {
    justify-content: center;
    flex-direction: column;
    height: 70vh;
-}
+} 
 
 .contact-info-upper-container {
    display: flex;
@@ -508,14 +508,13 @@ article .icon {
 footer {
    height: 26vh;
    margin: 0.1rem;
-   /* background: red; */
 }
 
 footer p {
    text-align: center;
    /* color: #fff; */
    color: #fcc458;
-   padding-top: 1rem;
+   /* padding-top: 1rem; */
 }
 
 .down a {
@@ -532,5 +531,4 @@ footer p {
 .base {
    /* background: #1a2236; */
    background: #3c4154;
-   color: red;
 }
