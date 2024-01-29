@@ -503,6 +503,10 @@ article .icon {
    height: 2.5rem;
 }
 
+.mailto a:hover {
+   color: #1a2236;
+   text-decoration-color: #1a2236;
+}
 /* Footer */
 
 footer {
@@ -514,7 +518,7 @@ footer p {
    text-align: center;
    /* color: #fff; */
    color: #fcc458;
-   /* padding-top: 1rem; */
+   padding-top: 0.5rem;
 }
 
 .down a {
