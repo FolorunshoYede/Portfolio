@@ -387,6 +387,7 @@ section {
 
 .text-container p {
    color: #1a2236;
+   text-align: justify;
 }
 
 /* Experience Section */
@@ -426,6 +427,10 @@ article {
 
 article .icon {
    cursor: default;
+}
+
+article p {
+   /* display: none; */
 }
 
 /* Projects */
