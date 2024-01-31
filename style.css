@@ -430,7 +430,7 @@ article .icon {
 }
 
 article p {
-   /* display: none; */
+   display: none;
 }
 
 /* Projects */
